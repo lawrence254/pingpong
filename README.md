@@ -12,11 +12,15 @@ When all the Requirements have been met, you can simply clone the application by
 ## Known Bugs/Updates/Corrections
 The application currently doesn't have any bugs. If any are spotted you can open an issue by clicking on this [link](https://github.com/lawrence254/pingpong/issues) and selecting `New Issue` on the resulting page and I will look into it.
 
-##Specifications
+## Specifications
 The following are the specifications for this application:
 #### INPUT
 * The application only works when a user enters an integer into the text box. Example Input:
   * 1,15,400,1000
+
+#### INPUT TYPE
+  * The application has a httml5 input validation for number. This forces it to only accept integers as the input.
+
 #### OUTPUT
 * The application has 4 types of output as listed below:
   * `ping` - This output will only be shown if a number is divisible by 3.
@@ -24,8 +28,7 @@ The following are the specifications for this application:
   * `pingpong` - This output is a result of a value being divisible by both 3 and 5.
 * Example output of the application is shown below.
 ![alt text](img/sample.png "Sample output")
-####INPUT TYPE
-* The application has a httml5 input validation for number. This forces it to only accept integers as the input.
+
 
 ## Built Using
 * HTML5
