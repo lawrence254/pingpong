@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway');
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Josefin Sans', sans-serif; */
+body{
+  background: #d5e2d8;
+  font-family: 'Raleway', sans-serif;
+}
+
+h5{
+  font-weight: bold;
+}
+a{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #0bedde;
+  font-size: 1.3em;
+}
+.fullContainer{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  text-align: center;
+  line-height: 100px;
+  padding: 5%;
+  background: #f4a142;
+}
+.header h1{
+  font-weight: bold;
+}
+.sidebar{
+  color: #fff;
+  padding: 1%;
+  float: left;
+  height: 100%;
+  width: 20%;
+  margin-top: 2%;
+  background:#4b8e48;
+  position: absolute;
+}
+.sidebar h5{
+  color: #eef442;
+}
+.sidebar h3{
+  font-weight: bold;
+  color: #000;
+}
+.pingform{
+margin-top: 1%;
+}
+.btn-custom{
+  background: #db6f04;
+  color: #fff;
+}
+.formContainer{
+  margin-top: 2%;
+  margin-left: 23%;
+}
+.resultsOutput{
+  /* color:#3b443d; */
+  margin-left: 20%;
+}
+.numbersList{
+  margin-left: 5%;
+}
