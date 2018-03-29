@@ -1,64 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway');
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Josefin Sans', sans-serif; */
-body{
+body {
   background: #d5e2d8;
   font-family: 'Raleway', sans-serif;
 }
 
-h5{
+h5 {
   font-weight: bold;
 }
-a{
+
+a {
   font-family: 'Josefin Sans', sans-serif;
   color: #0bedde;
   font-size: 1.3em;
 }
-.fullContainer{
+
+.fullContainer {
   margin: 0;
   padding: 0;
 }
-.header{
+
+.header {
   text-align: center;
   line-height: 100px;
   padding: 5%;
   background: #f4a142;
 }
-.header h1{
+
+.header h1 {
   font-weight: bold;
 }
-.sidebar{
+
+.sidebar {
   color: #fff;
   padding: 1%;
   float: left;
-  height: 100%;
+  height: 100vh;
   width: 20%;
   margin-top: 2%;
-  background:#4b8e48;
+  background: #4b8e48;
   position: absolute;
 }
-.sidebar h5{
+
+.sidebar h5 {
   color: #eef442;
 }
-.sidebar h3{
+
+.sidebar h3 {
   font-weight: bold;
   color: #000;
 }
-.pingform{
-margin-top: 1%;
+
+.pingform {
+  margin-top: 1%;
 }
-.btn-custom{
+
+.btn-custom {
   background: #db6f04;
   color: #fff;
 }
-.formContainer{
+
+.formContainer {
   margin-top: 2%;
   margin-left: 23%;
 }
-.resultsOutput{
-  /* color:#3b443d; */
+
+.resultsOutput {
   margin-left: 20%;
 }
-.numbersList{
+
+.numbersList {
   margin-left: 5%;
 }
