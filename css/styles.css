@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway|Press+Start+2P');
 body {
   background: #d5e2d8;
   font-family: 'Raleway', sans-serif;
@@ -22,12 +22,21 @@ a {
 .header {
   text-align: center;
   line-height: 100px;
-  padding: 5%;
   background: #f4a142;
 }
 
-.header h1 {
+.headerText{
   font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 38px;
+  /* padding: 5%; */
+
+}
+.header img{
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  z-index: -1;
 }
 
 .sidebar {
@@ -71,3 +80,9 @@ a {
 .numbersList {
   margin-left: 5%;
 }
+/* .backheader{
+  height: 5%;
+  background-image: url('../img/header2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+} */

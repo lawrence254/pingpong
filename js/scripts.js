@@ -13,7 +13,6 @@ function pingpong(startPoint) {
 
 $(document).ready(function() {
   $('#submit').click(function(event) {
-    rawInput = $('input#number').val();
     var userNumber = parseInt($('input#number').val());
     event.preventDefault();
     $('ul.numbersList').empty();
